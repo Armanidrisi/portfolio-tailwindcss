@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&family=Syne:wght@400;500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #1a1a1a;
+}
+.img-bg {
+  height: 80px;
+  width: 120px;
+}
+
+.img-bg {
+  position: absolute;
+  background-color: white;
+  border-radius: 40%;
+  filter: blur(72px);
+  z-index: -1;
+  animation: pulse 4s cubic-bezier(0, 0, 0, 0.5) infinite;
+}
+
+@keyframes pulse {
+  50% {
+    transform: scale(1.5);
+  }
+}
