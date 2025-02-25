@@ -71,3 +71,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Please don't forget to leave a 🌟
+## ⚠️ Note: Data used in website (Name,Email Etc) is dummy... I used a random design on figma...
